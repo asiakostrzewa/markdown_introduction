@@ -21,7 +21,7 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
 
 The end.
 
-## Wyróżnianie
+## Wyróżnienia
 
 To jest tekst *pochylony*.  
 To jest tekst **pogrubiony**.
@@ -48,3 +48,40 @@ lub
 ## Obrazki
 
 ![alt text](IMG_E8070.JPG)
+
+## Listy
+
+Lista numerowana
+
+1. One
+2. Two
+3. Three
+
+Lista punktowana
+
+- this
+- is
+- a
+- bulleted
+- list
+
+## Tabela
+
+|Heading text|Definition text|  
+|------------|---------------|  
+|Item A|Definition of A|  
+|Item B|Definition of B|
+
+## Spis treści
+
+- [Title](#title)
+  - [Chapter 1](#chapter-1)
+  - [Chapter 2](#chapter-2)
+    - [Subchapter 3](#subchapter-3)
+    - [What is Lorem Ipsum?](#what-is-lorem-ipsum)
+  - [Wyróżnienia](#wyróżnienia)
+  - [Odsyłacze](#odsyłacze)
+  - [Obrazki](#obrazki)
+  - [Listy](#listy)
+  - [Tabela](#tabela)
+  - [Spis treści](#spis-treści)
