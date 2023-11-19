@@ -1,90 +1,108 @@
-# Title <!-- omit in toc -->
+# Quick Markdown Guide <!-- omit in toc -->
 
-<!-- to jest komentarz, ale może być czytany przez VSC i rozszerzenia jako działanie -->
+<!-- this is a comment, but it can be read by VSC and their extensions as actions -->
+
+# This is Title
+
+## Table of Contents <!-- omit in toc -->
+
+- [This is Title](#this-is-title)
+  - [This is Chapter](#this-is-chapter)
+    - [This is Subchapter](#this-is-subchapter)
+  - [Basic Features](#basic-features)
+  - [Extended Features](#extended-features)
+
+## This is Chapter
+---
 
 This is a paragraph of text.
 
-## Chapter 1
+### This is Subchapter
 
-Provide preface information here.
+How does `enter`, `double enter` and `double space and enter` works?
 
-## Chapter 2
+- `enter` - no visible action;  
+- `double enter` - new paragraph;  
+- `double space and enter` - new line without new paragraph creation.
 
-Put safety details here.
+## Basic Features
+---
 
-### Subchapter 3
+This text is *Italics*.  
 
-Supply local o special requirements here.
+---
 
-### What is Lorem Ipsum?
+This text is **Bold**.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+---
 
-The end.
+This text is ~~crossed out~~.
 
-<!-- Zbiór komend: https://www.markdownguide.org/cheat-sheet/ -->
+---
 
-## Wyróżnienia
+> This is a blockquote.  
+This is still a blockquote.  
+This is the end of blockquote.
 
-To jest tekst *pochylony*.  
-To jest tekst **pogrubiony**.
+---
 
-> To jest cytat.  
-To nadal jest cytat.  
-To jest koniec cytatu.
+Numbered list:
+1. First item
+2. Second item
+3. Third item
 
-Sposób wyróżniania wzorów lub kodu w tekście `x+y=z`.
+---
 
-Przykład próbki kodu:
+Bulleted list:
+- First item
+- Second item
+- Third item
+
+---
+
+Task list
+- [x] Write the Quick Guide
+- [ ] Update the website
+- [ ] Prepare portfolio
+
+---
+
+`This text is using for code or for mathematical formulas.`
+
+---
+
+Here we have two examples of the use of links:  
+
+[Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)  
+or  
+[https://www.markdownguide.org/cheat-sheet/]()
+
+---
+
+and here you can find an example how to add image:  
+
+![alt text](IMG_E8070.JPG)
+
+## Extended Features
+---
+
+An example of code block:
 ```
 started_in = os.getcwd()
     download_content(terminology_url, terminology_languages)
     os.chdir(started_in)
 ```
 
-## Odsyłacze
+---
 
-[Prognoza pogody](https://meteo.pl/)  
-lub  
-[https://meteo.pl/]()
-
-## Obrazki
-
-![alt text](IMG_E8070.JPG)
-
-## Listy
-
-Lista numerowana
-
-1. One
-2. Two
-3. Three
-
-Lista punktowana
-
-- this
-- is
-- a
-- bulleted
-- list
-
-## Tabela
+Below you can find an example of the table:
 
 | Heading text | Definition text |
 | ------------ | --------------- |
 | Item A       | Definition of A |
 | Item B       | Definition of B |
 
-## Spis treści
+---
+---
 
-- [Chapter 1](#chapter-1)
-- [Chapter 2](#chapter-2)
-  - [Subchapter 3](#subchapter-3)
-  - [What is Lorem Ipsum?](#what-is-lorem-ipsum)
-- [Wyróżnienia](#wyróżnienia)
-- [Odsyłacze](#odsyłacze)
-- [Obrazki](#obrazki)
-- [Listy](#listy)
-- [Tabela](#tabela)
-- [Spis treści](#spis-treści)
+Source: [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) 
