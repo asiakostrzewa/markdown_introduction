@@ -1,4 +1,6 @@
-# Title
+# Title <!-- omit in toc -->
+
+<!-- to jest komentarz, ale może być czytany przez VSC i rozszerzenia jako działanie -->
 
 This is a paragraph of text.
 
@@ -20,6 +22,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 The end.
+
+<!-- Zbiór komend: https://www.markdownguide.org/cheat-sheet/ -->
 
 ## Wyróżnienia
 
@@ -67,21 +71,20 @@ Lista punktowana
 
 ## Tabela
 
-|Heading text|Definition text|  
-|------------|---------------|  
-|Item A|Definition of A|  
-|Item B|Definition of B|
+| Heading text | Definition text |
+| ------------ | --------------- |
+| Item A       | Definition of A |
+| Item B       | Definition of B |
 
 ## Spis treści
 
-- [Title](#title)
-  - [Chapter 1](#chapter-1)
-  - [Chapter 2](#chapter-2)
-    - [Subchapter 3](#subchapter-3)
-    - [What is Lorem Ipsum?](#what-is-lorem-ipsum)
-  - [Wyróżnienia](#wyróżnienia)
-  - [Odsyłacze](#odsyłacze)
-  - [Obrazki](#obrazki)
-  - [Listy](#listy)
-  - [Tabela](#tabela)
-  - [Spis treści](#spis-treści)
+- [Chapter 1](#chapter-1)
+- [Chapter 2](#chapter-2)
+  - [Subchapter 3](#subchapter-3)
+  - [What is Lorem Ipsum?](#what-is-lorem-ipsum)
+- [Wyróżnienia](#wyróżnienia)
+- [Odsyłacze](#odsyłacze)
+- [Obrazki](#obrazki)
+- [Listy](#listy)
+- [Tabela](#tabela)
+- [Spis treści](#spis-treści)
