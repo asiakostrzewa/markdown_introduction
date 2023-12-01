@@ -94,6 +94,13 @@ started_in = os.getcwd()
 ```
 
 ---
+Mathematical expressions - examples:
+
+$\sqrt{3x-1}+(1+x)^2$
+
+$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$
+
+---
 
 Below you can find an example of the table:
 
@@ -101,6 +108,12 @@ Below you can find an example of the table:
 | ------------ | --------------- |
 | Item A       | Definition of A |
 | Item B       | Definition of B |
+
+and variations with text alignment in the table to the right, left and center:
+
+| Right alignment                    |                    Left alignment |      Center       |
+| :--------------------------------- | --------------------------------: | :---------------: |
+| I'm sticking to the **right** side | I'm sticking to the **left** side | I'm in the middle |
 
 ---
 ---
