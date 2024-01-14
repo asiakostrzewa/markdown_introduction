@@ -1,6 +1,6 @@
 # Quick Markdown Guide <!-- omit in toc -->
 
-<!-- this is a comment, but it can be read by VSC and their extensions as actions -->
+<!-- this is a comment, but Visual Studio Code (VSC) and its extensions can still read it as action -->
 
 # This is Title
 
@@ -13,36 +13,28 @@
   - [Extended Features](#extended-features)
 
 ## This is Chapter
----
 
 This is a paragraph of text.
 
 ### This is Subchapter
 
-How does `enter`, `double enter` and `double space and enter` works?
+How do `enter`, `double enter` and `double space and enter` commands work?
 
 - `enter` - no visible action;  
 - `double enter` - new paragraph;  
-- `double space and enter` - new line without new paragraph creation.
+- `double space and enter` - new line without creating a new paragraph.
 
 ## Basic Features
----
 
-This text is *Italics*.  
-
----
-
-This text is **Bold**.
-
----
-
+This text is *italics*.  
+This text is **bold**.  
 This text is ~~crossed out~~.
 
 ---
 
 > This is a blockquote.  
 This is still a blockquote.  
-This is the end of blockquote.
+This is the end of the blockquote.
 
 ---
 
@@ -60,18 +52,18 @@ Bulleted list:
 
 ---
 
-Task list
-- [x] Write the Quick Guide
+To-do list
+- [x] Write a Quick Guide
 - [ ] Update the website
-- [ ] Prepare portfolio
+- [ ] Prepare your portfolio
 
 ---
 
-`This text is using for code or for mathematical formulas.`
+`This text is used to write code or mathematical formulas.`
 
 ---
 
-Here we have two examples of the use of links:  
+Two examples of using links:
 
 [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)  
 or  
@@ -79,14 +71,13 @@ or
 
 ---
 
-and here you can find an example how to add image:  
+Adding an image: 
 
-![alt text](IMG_E8070.JPG)
+![Alternative text](<Markdown Logo.png>)
 
 ## Extended Features
----
 
-An example of code block:
+Code block:
 ```
 started_in = os.getcwd()
     download_content(terminology_url, terminology_languages)
@@ -96,7 +87,7 @@ started_in = os.getcwd()
 ---
 Mathematical expressions:
 
-When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
+When $a \ne 0$, there are two solutions of $(ax^2 + bx + c = 0)$ and they are 
 
 $$
 x = {-b \pm \sqrt{b^2-4ac} \over 2a} 
@@ -104,18 +95,18 @@ $$
 
 ---
 
-Below you can find an example of the table:
+Tables:
 
 | Heading text | Definition text |
 | ------------ | --------------- |
 | Item A       | Definition of A |
 | Item B       | Definition of B |
 
-and variations with text alignment in the table to the right, left and center:
+Variations with text alignment in the table to the right, left and center:
 
 | Right alignment                    |                    Left alignment |      Center       |
 | :--------------------------------- | --------------------------------: | :---------------: |
-| I'm sticking to the **right** side | I'm sticking to the **left** side | I'm in the middle |
+| Text on the right | Text on the left | Text in the middle |
 
 ---
 ---
